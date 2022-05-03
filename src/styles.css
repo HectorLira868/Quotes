@@ -1,0 +1,45 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flexbox;
+  text-align: justify;
+  padding: 10px;
+}
+
+.card {
+  margin: 300px;
+  padding: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: 50vw;
+  background: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+
+.author {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.button {
+  margin-top: 25px;
+  padding: 10px;
+  background: blueviolet;
+  border: none;
+  border-radius: 50px;
+  margin-left: 33vw;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.icon {
+  font-size: 3rem;
+}
